@@ -1,8 +1,10 @@
 # Field Form Application
-
+- A generic form app, developed for android, that allows college recruiters to electronically register attendees at their events.
+- Running android version ____.
 
 ## Getting Started
 ### Prerequisites
+- Android Studio provides support for Windows, Mac OS X, and Linux platforms.
 
 ### Installing
 1. Install the latest version of [Android Studios](https://developer.android.com/studio/).
