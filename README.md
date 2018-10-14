@@ -29,9 +29,9 @@ The project is now ready for development. In Android Studios, proceed to open up
 - [Draw.IO](https://www.draw.io/)
 - [Balsamiq](https://balsamiq.com/)
 
-## Authors (and roles)
+## Authors
 
 - Joshua Chesney
 - Adam Zastresek
-- Hiren Soni (Frontend Developer)
-- Andrew Montoya ()
+- Hiren Soni
+- Andrew Montoya
