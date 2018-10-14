@@ -1,0 +1,15 @@
+ Resources used to maintain and develop the code/application is Android Studio, version 
+3.2.1.
+
+ All the tools mentioned below can be downloaded for free at: 
+https://developer.android.com/studio/
+
+ Also, if you have an Android phone, you can plug it into a computer before the program 
+compiles, by clicking the green button that looks like a play button and it will show you 
+on your device, what the app will look like.
+
+ Or you can download a virtual Android emulator within Android Studio, as you are 
+compiling the program. Again by clicking the green play button in the middle of the 
+toolbar section. This allows you to select a particular software version that is compatible 
+with a particular phone and screen size. Then a mock phone pops up that runs your 
+application. 
