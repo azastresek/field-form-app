@@ -31,7 +31,7 @@ The project is now ready for development. In Android Studios, proceed to open up
 
 ## Authors (and roles)
 
-- Joshua Chesney:
-- Adam Zastresek:
-- Hiren Soni:
-- Andrew Montoya:
+- Joshua Chesney
+- Adam Zastresek
+- Hiren Soni (Frontend Developer)
+- Andrew Montoya ()
