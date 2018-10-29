@@ -1,4 +1,4 @@
-package com.example.hiren.fieldformapp;
+package edu.lewisu.fieldformapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.hiren.fieldformapp", appContext.getPackageName());
+        assertEquals("edu.lewisu.fieldformapp", appContext.getPackageName());
     }
 }

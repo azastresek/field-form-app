@@ -1,4 +1,4 @@
-package com.example.hiren.fieldformapp;
+package edu.lewisu.fieldformapp;
 
 import org.junit.Test;
 
