@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText firstName,Address;
-    edu.lewisu.fieldformapp.SQLDatabase sql;
+    SQLDatabase sql;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,15 +19,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         firstName=(EditText)findViewById(R.id.editText);
         Address=(EditText)findViewById(R.id.editText2);
-        sql=new edu.lewisu.fieldformapp.SQLDatabase(MainActivity.this);
+        sql=new SQLDatabase(MainActivity.this);
     }
 
+    // defined in the xml
     public void click(View v)
     {
         String fName = firstName.getText().toString();
         String add = Address.getText().toString();
         sql.open();
-        sql.save();
+        sql.save(fName, add);
         sql.close();
         Toast.makeText(MainActivity.this, "Saved Successfully", Toast.LENGTH_SHORT).show();
 
