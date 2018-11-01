@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,5 +44,11 @@ public class MainActivity extends AppCompatActivity {
         tv.setText(txt);
         d.setContentView(tv);
         d.show();
+    }
+
+    public void guiLoad(View v)
+    {
+        Intent intent = new Intent(this, forms_list.class);
+        startActivity(intent);
     }
 }
